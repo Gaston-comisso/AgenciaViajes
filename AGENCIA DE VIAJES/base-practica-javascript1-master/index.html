@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegación con Javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Agencia de Viajes</h1>
+    </header>
+
+    <main class="main-container">
+        <!-- Panel izquierdo de opciones -->
+        <div class="sidebar">
+            <ul>
+                <li><a>Barcelona</a></li>
+                <li><a>Roma</a></li>
+                <li><a>París</a></li>
+                <li><a>Londres</a></li>
+            </ul>
+        </div>
+
+        <!-- Contenedor de información -->
+        <div class="content">
+            <h2 id="titulo">Bienvenido a nuestra agencia de viajes</h2>
+            <h3 id="subtitulo">Elija su destino</h3>
+            <p id="parrafo">Compre los mejores paquetes de viajes</p>
+            <h4 id="precio"></h4>
+        </div>
+    </main>
+
+    <section id="testimonios" class="testimonios">
+        <h2 id="titulo-testimonios" class="clickable">Testimonios de Clientes</h2>
+        <div class="testimonio-container" id="testimonio-container" style="display: none;">
+            <div class="testimonio">
+                <img src="images/cliente1" alt="Cliente 1" class="testimonio-img">
+                <p class="cita">"El servicio fue excepcional y la calidad del producto superó mis expectativas. ¡Recomiendo esta tienda al 100%!"</p>
+                <p class="nombre">- Ana Gómez</p>
+            </div>
+            <div class="testimonio">
+                <img src="images/cliente2.jpg" alt="Cliente 2" class="testimonio-img">
+                <p class="cita">"Una experiencia increíble, definitivamente volveré a comprar aquí. ¡Gracias!"</p>
+                <p class="nombre">- Luisito el pillo</p>
+            </div>
+            <div class="testimonio">
+                <img src="images/cliente3.jpg" alt="Cliente 3" class="testimonio-img">
+                <p class="cita">"Los productos son de alta calidad y el envío fue muy rápido. Estoy muy contento con mi compra."</p>
+                <p class="nombre">- Carlos Ruiz</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Agencia de Viajes. Todos los derechos reservados.</p>
+    </footer>
+
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
